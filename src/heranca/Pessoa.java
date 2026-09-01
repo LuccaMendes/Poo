@@ -9,10 +9,10 @@ public class Pessoa {
     public Pessoa() {
     }
 
-    public Pessoa(String nome, Contato contato, Endereco endereco) {
+    public Pessoa(String nome, Endereco endereco, Contato contato) {
         this.nome = nome;
-        this.contato = contato;
         this.endereco = endereco;
+        this.contato = contato;
     }
 
     public String getNome() {
