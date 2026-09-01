@@ -51,7 +51,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
+        return "" +
                 "\n rua: " + rua +
                 "\n numero: " + numero +
                 "\n bairro: " + bairro +

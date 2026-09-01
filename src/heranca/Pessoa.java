@@ -41,7 +41,7 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" +
+        return "Pessoa" +
                 "\n nome: " + nome +
                 "\n endereco: " + endereco +
                 "\n contato: " + contato ;
